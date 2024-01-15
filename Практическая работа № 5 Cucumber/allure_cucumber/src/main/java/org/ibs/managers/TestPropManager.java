@@ -3,6 +3,7 @@ package org.ibs.managers;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Properties;
 
 /**
@@ -58,9 +59,8 @@ public class TestPropManager {
      */
     private void loadApplicationProperties() {
         try {
-            properties.load(new FileInputStream(
-                    new File("src/main/resources/" +
-                            System.getProperty("propFile", "application") + ".properties")));
+            properties.load(Files.newInputStream(new File("src/main/resources/" +
+                    System.getProperty("propFile", "application") + ".properties").toPath()));
         } catch (IOException e) {
             e.printStackTrace();
         }

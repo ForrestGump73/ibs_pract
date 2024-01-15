@@ -7,8 +7,10 @@ import org.ibs.managers.DriverManager;
 import org.ibs.managers.InitManager;
 import org.ibs.managers.PageManager;
 import org.ibs.managers.TestPropManager;
+import org.junit.jupiter.api.DisplayName;
 
 import static org.ibs.utils.PropConst.BASE_URL;
+
 
 public class BaseTests {
 

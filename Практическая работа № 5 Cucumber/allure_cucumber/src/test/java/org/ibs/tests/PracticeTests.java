@@ -1,9 +1,6 @@
 package org.ibs.tests;
 
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.ibs.basetestclass.BaseTests;
@@ -15,6 +12,7 @@ public class PracticeTests extends BaseTests {
     @Epic("IBS Стажировка")
     @Feature("Автотестирование")
     @Story("Тестирование добавления товаров в БД")
+    @Severity(SeverityLevel.MINOR)
     @Test
     @DisplayName("Тестирование добавления овоща")
     public void startVegTest() {

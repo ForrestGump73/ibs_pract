@@ -13,7 +13,6 @@ import org.ibs.managers.TestPropManager;
 import java.time.Duration;
 
 /**
- * @author Arkadiy_Alaverdyan
  * Базовый класс всех страничек
  */
 public class BasePage {
