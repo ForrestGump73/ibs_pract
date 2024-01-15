@@ -1,2 +1,8 @@
-package org.ibs.steps;public class FoodSteps {
+package org.ibs.steps;
+
+import io.cucumber.java.ru.И;
+
+public class FoodSteps {
+
+    @И("")
 }
