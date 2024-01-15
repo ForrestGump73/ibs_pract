@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 import static ru.appline.framework.utils.PropConst.*;
 
 /**
- * @author Arkadiy_Alaverdyan
  * Класс для инициализации фреймворка
  */
 public class InitManager {

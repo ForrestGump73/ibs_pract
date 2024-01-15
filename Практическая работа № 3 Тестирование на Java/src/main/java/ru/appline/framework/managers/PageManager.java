@@ -5,7 +5,6 @@ import ru.appline.framework.pages.HomePage;
 
 
 /**
- * @author Arkadiy_Alaverdyan
  * Класс для управления страничками
  */
 public class PageManager {

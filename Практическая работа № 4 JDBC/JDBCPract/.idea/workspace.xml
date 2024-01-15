@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="291b2430-05c5-4f7f-9044-fb5aac08daaf" name="Changes" comment="правки" />
+    <list default="true" id="291b2430-05c5-4f7f-9044-fb5aac08daaf" name="Changes" comment="правки">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBCPract.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBCPract.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -33,24 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.foodTable.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.statement.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.testCase1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.testCase2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.testCase3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.testCaseInvalidValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.testCaseInvalivValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.testValidValues.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.AppTest.foodTable.executor": "Run",
+    "JUnit.AppTest.statement.executor": "Run",
+    "JUnit.AppTest.testCase1.executor": "Run",
+    "JUnit.AppTest.testCase2.executor": "Run",
+    "JUnit.AppTest.testCase3.executor": "Run",
+    "JUnit.AppTest.testCaseInvalidValues.executor": "Run",
+    "JUnit.AppTest.testCaseInvalivValues.executor": "Run",
+    "JUnit.AppTest.testValidValues.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract/src/test/java",
+    "last_opened_file_path": "D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.AppTest.testInvalidValues">
     <configuration name="AppTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBCPract" />
@@ -159,6 +163,27 @@
       <option name="presentableId" value="Default" />
       <updated>1705045466043</updated>
     </task>
+    <task id="LOCAL-00001" summary="правки">
+      <option name="closed" value="true" />
+      <created>1705310599844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705310599844</updated>
+    </task>
+    <task id="LOCAL-00002" summary="правки">
+      <option name="closed" value="true" />
+      <created>1705310642000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705310642000</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки" />
   </component>
 </project>
