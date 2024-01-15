@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291b2430-05c5-4f7f-9044-fb5aac08daaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ibs/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ibs/basetests/JDBCManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ibs/basetests/NullableConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ibs/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ibs/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2aqUB4JmZ5pOhXa5ljoxxEtbEyD" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,77 +46,17 @@
     "JUnit.AppTest.testCase1.executor": "Run",
     "JUnit.AppTest.testCase2.executor": "Run",
     "JUnit.AppTest.testCase3.executor": "Run",
+    "JUnit.AppTest.testCaseInvalidValues.executor": "Run",
+    "JUnit.AppTest.testCaseInvalivValues.executor": "Run",
+    "JUnit.AppTest.testValidValues.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract/src/test/java",
-    "last_opened_file_path": "D:/autotest_pract"
+    "last_opened_file_path": "D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AppTest">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBCPract" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ibs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ibs" />
-      <option name="MAIN_CLASS_NAME" value="org.ibs.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.foodTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBCPract" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ibs.basetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ibs" />
-      <option name="MAIN_CLASS_NAME" value="org.ibs.AppTest" />
-      <option name="METHOD_NAME" value="foodTable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBCPract" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ibs.basetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ibs" />
-      <option name="MAIN_CLASS_NAME" value="org.ibs.AppTest" />
-      <option name="METHOD_NAME" value="testCase1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBCPract" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ibs.basetests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ibs" />
-      <option name="MAIN_CLASS_NAME" value="org.ibs.AppTest" />
-      <option name="METHOD_NAME" value="testCase2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppTest.testInvalidValues">
     <configuration name="AppTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBCPract" />
       <extension name="coverage">
@@ -131,13 +73,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testCase8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCPract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ibs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ibs" />
+      <option name="MAIN_CLASS_NAME" value="org.ibs.AppTest" />
+      <option name="METHOD_NAME" value="testCase8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testCaseInvalidValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCPract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ibs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ibs" />
+      <option name="MAIN_CLASS_NAME" value="org.ibs.AppTest" />
+      <option name="METHOD_NAME" value="testCaseInvalidValues(int,java.lang.String,java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testInvalidValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCPract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ibs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ibs" />
+      <option name="MAIN_CLASS_NAME" value="org.ibs.AppTest" />
+      <option name="METHOD_NAME" value="testInvalidValues(int,java.lang.String,java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testValidValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCPract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ibs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ibs" />
+      <option name="MAIN_CLASS_NAME" value="org.ibs.AppTest" />
+      <option name="METHOD_NAME" value="testValidValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.testCase2" />
-        <item itemvalue="JUnit.AppTest.testCase1" />
+        <item itemvalue="JUnit.AppTest.testInvalidValues" />
+        <item itemvalue="JUnit.AppTest.testCase8" />
+        <item itemvalue="JUnit.AppTest.testValidValues" />
+        <item itemvalue="JUnit.AppTest.testCaseInvalidValues" />
         <item itemvalue="JUnit.AppTest.testCase3" />
-        <item itemvalue="JUnit.AppTest.foodTable" />
       </list>
     </recent_temporary>
   </component>
