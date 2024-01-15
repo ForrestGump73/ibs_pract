@@ -21,6 +21,8 @@ public class JDBCManager {
             throw new RuntimeException(e);
         }
     }
+
+    @Step
     public Statement getStatement() throws SQLException {
         return connection.createStatement();
     }
