@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="291b2430-05c5-4f7f-9044-fb5aac08daaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ibs/basetests/NullableConverter.java" afterDir="false" />
+    <list default="true" id="291b2430-05c5-4f7f-9044-fb5aac08daaf" name="Changes" comment="правки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ibs/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ibs/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AppTest.executor": "Run",
-    "JUnit.AppTest.foodTable.executor": "Run",
-    "JUnit.AppTest.statement.executor": "Run",
-    "JUnit.AppTest.testCase1.executor": "Run",
-    "JUnit.AppTest.testCase2.executor": "Run",
-    "JUnit.AppTest.testCase3.executor": "Run",
-    "JUnit.AppTest.testCaseInvalidValues.executor": "Run",
-    "JUnit.AppTest.testCaseInvalivValues.executor": "Run",
-    "JUnit.AppTest.testValidValues.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract/src/test/java",
-    "last_opened_file_path": "D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.foodTable.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.statement.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testCase1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testCase2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testCase3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testCaseInvalidValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testCaseInvalivValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testValidValues.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ibs_pract/Практическая работа № 4 JDBC/JDBCPract&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.AppTest.testInvalidValues">
     <configuration name="AppTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBCPract" />
@@ -151,6 +148,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-f719d367" />
+        <option value="jdk-19.0.2-corretto-19.0.2-f644763e9732-1e16d6ec" />
       </set>
     </attachedChunks>
   </component>
