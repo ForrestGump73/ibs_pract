@@ -12,14 +12,6 @@ import java.util.Map;
 
 public class FoodSteps {
 
-    private String name;
-
-    private String type;
-
-    private String exotic;
-
-    private WebDriverWait wait;
-
     /**
      * Менеджер страничек
      *
