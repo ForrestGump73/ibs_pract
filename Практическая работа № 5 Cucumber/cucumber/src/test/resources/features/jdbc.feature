@@ -1,6 +1,6 @@
 # language: ru
 
-@jdbc
+@jdbc @all
 Функция: JDBC
 
 

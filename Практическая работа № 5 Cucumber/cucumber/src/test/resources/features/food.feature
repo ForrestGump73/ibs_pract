@@ -1,6 +1,6 @@
 # language: ru
 
-@addproduct
+@addproduct @all
 Функция: Добавление товара
 
 
@@ -9,7 +9,7 @@
     * Открыта страница по адресу "http://localhost:8080/"
 
 
-  @product @veg
+  @product
   @CucumberTest=1
   Сценарий: Добавление овоща в БД
     * Кнопка "Меню" видима
@@ -34,7 +34,7 @@
       | Тип          | Овощ     |
       | Экзотический | false    |
 
-  @product @fruit
+  @product
   @CucumberTest=2
   Сценарий: Добавление фрукта в БД
     * Кнопка "Меню" видима

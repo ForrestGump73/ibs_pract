@@ -2,7 +2,9 @@ package org.ibs.steps;
 
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
 import org.ibs.managers.DriverManager;
 import org.ibs.managers.InitManager;
 import org.ibs.managers.PageManager;
@@ -23,7 +25,7 @@ public class Hooks {
      */
     private final DriverManager driverManager = DriverManager.getDriverManager();
 
-    @Before("@CucumberTest=1")
+    @Before("@product")
     public static void beforeProduct() {
         InitManager.initFramework();
     }
