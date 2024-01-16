@@ -101,7 +101,6 @@ public class FoodSteps {
     public void fillFieldName(String field, String value) {
         if (field.equals("Наименование")) {
             app.getProductsPage().fillFieldName(value);
-            name = value;
         } else
             Assertions.fail("Поле с именем " + field + " отсутствует на странице");
     }
@@ -117,7 +116,6 @@ public class FoodSteps {
     @И("Из опций селектора выбираем {string}")
     public void selectOptionOfSelector(String option) {
         app.getProductsPage().selectTypeOfProduct(option);
-        type = option;
     }
 
     @И("Чекбокс {string} виден")
@@ -140,7 +138,6 @@ public class FoodSteps {
     public void checkboxOn(String checkbox) {
         if (checkbox.equals("Экзотический")) {
             app.getProductsPage().checkboxExoticOn();
-            exotic = "true";
         } else
             Assertions.fail("Чек бокс " + checkbox + " отсутствует на странице");
     }
@@ -157,7 +154,6 @@ public class FoodSteps {
     public void checkboxOff(String checkbox) {
         if (checkbox.equals("Экзотический")) {
             app.getProductsPage().checkboxExoticOff();
-            exotic = "false";
         } else
             Assertions.fail("Чек бокс " + checkbox + " отсутствует на странице");
     }
