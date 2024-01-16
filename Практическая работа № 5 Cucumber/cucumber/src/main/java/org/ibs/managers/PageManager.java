@@ -69,6 +69,10 @@ public class PageManager {
         return productsPage;
     }
 
+    public static void newPageManager() {
+        pageManager = null;
+    }
+
 
 }
 

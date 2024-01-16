@@ -30,9 +30,10 @@ public class Hooks {
         InitManager.initFramework();
     }
 
-    @After("@CucumberTest=2")
+    @After("@product")
     public static void afterFruit() {
         InitManager.quitFramework();
+        PageManager.newPageManager();
     }
 
 }

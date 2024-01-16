@@ -44,6 +44,7 @@ public class InitManager {
      */
     public static void quitFramework() {
         driverManager.quitDriver();
+
     }
 }
 
