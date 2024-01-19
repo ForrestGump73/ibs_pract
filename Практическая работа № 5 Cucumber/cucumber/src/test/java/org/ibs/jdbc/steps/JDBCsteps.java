@@ -3,8 +3,7 @@ package org.ibs.jdbc.steps;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.ru.И;
 import org.ibs.jdbc.basetests.JDBCManager;
-import org.ibs.jdbc.basetests.NullableConverter;
-import org.junit.jupiter.params.converter.ConvertWith;
+
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -22,7 +22,7 @@ public class JDBCManager {
         }
     }
 
-    @Step
+
     public Statement getStatement() throws SQLException {
         return connection.createStatement();
     }

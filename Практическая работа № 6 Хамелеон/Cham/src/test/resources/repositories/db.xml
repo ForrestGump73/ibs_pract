@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DbGears xmlns="http://chameleon.ibs-qa.ru/schema/db">
+    <Connection driver="org.h2.Driver" name="H2" url="jdbc:h2:tcp://localhost:9092/mem:testdb;DB_CLOSE_DELAY=-1;user=#{user};password=#{pass}" autoCommit="true">
+        <Params>
+            <FieldString name="Пользователь" locator="user"/>
+            <FieldString locator="pass" name="Пароль"/>
+        </Params>
+    </Connection>
+    <Query name="Добавление товара"
+           statement="insert into food(food_id, food_name, food_type, food_exotic) values (:food_id, :food_name, :food_type, :food_exotic);">
+        <Params>
+            <FieldInteger name="food_id" locator="food_id"/>
+            <FieldString name="food_name" locator="food_name"/>
+            <FieldString name="food_type" locator="food_type"/>
+            <FieldInteger name="food_exotic" locator="food_exotic"/>
+        </Params>
+    </Query>
+    <Query name="Удвление товара по ID" statement="delete from FOOD where food_id=:food_id">
+        <Params>
+            <FieldInteger name="food_id" locator="food_id"/>
+        </Params>
+    </Query>
+</DbGears>
