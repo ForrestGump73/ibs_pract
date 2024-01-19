@@ -15,9 +15,17 @@
             <FieldInteger name="food_exotic" locator="food_exotic"/>
         </Params>
     </Query>
-    <Query name="Удвление товара по ID" statement="delete from FOOD where food_id=:food_id">
+    <Query name="Удаление товара по ID" statement="delete from FOOD where food_id=:food_id">
         <Params>
             <FieldInteger name="food_id" locator="food_id"/>
         </Params>
+    </Query>
+    <Query name="Список товаров" statement="select * from FOOD">
+        <Result>
+            <FieldString name="Идентификатор" locator="food_id"/>
+            <FieldString name="Наименование" locator="food_id"/>
+            <FieldString name="Тип" locator="food_type"/>
+            <FieldString name="Экзотический" locator="food_exotic"/>
+        </Result>
     </Query>
 </DbGears>
