@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"32008b431bd51ac4c24bd33005e9b2b8","name":"JDBC","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}},{"uid":"69e98c80d31c8d5d7b0b08efe6a34ff9","name":"Добавление товара","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jan 19 05:20:59 GMT+04:00 2024","Fri Jan 19 05:21:00 GMT+04:00 2024","1015","","Добавление товара","","Test Scenario structure","","Test Scenario structure",""
+"passed","Fri Jan 19 05:20:55 GMT+04:00 2024","Fri Jan 19 05:20:59 GMT+04:00 2024","4080","","Добавление товара","","Test Scenario structure","","Test Scenario structure",""
+"passed","Fri Jan 19 16:28:21 GMT+04:00 2024","Fri Jan 19 16:28:22 GMT+04:00 2024","1113","","JDBC","","Добавление фрукта в БД","","Добавление фрукта в БД",""
+"passed","Fri Jan 19 16:28:23 GMT+04:00 2024","Fri Jan 19 16:28:23 GMT+04:00 2024","34","","JDBC","","Добавление овоща в БД","","Добавление овоща в БД",""
+"passed","Fri Jan 19 05:20:55 GMT+04:00 2024","Fri Jan 19 05:20:55 GMT+04:00 2024","26","","JDBC","","Добавление в БД корректных значений","","Добавление в БД корректных значений",""

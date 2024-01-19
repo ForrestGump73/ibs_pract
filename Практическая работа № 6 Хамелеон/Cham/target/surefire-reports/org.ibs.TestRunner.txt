@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.ibs.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.963 s - in org.ibs.TestRunner
+JDBC.Добавление в БД некорректных значений  Time elapsed: 2.506 s
+JDBC.Добавление в БД корректных значений  Time elapsed: 0.042 s
+Примеры.Example #1  Time elapsed: 4.1 s
+Примеры.Example #2  Time elapsed: 1.041 s
