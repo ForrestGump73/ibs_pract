@@ -29,19 +29,13 @@ public class RestPract {
         Specifications.installSpecification(Specifications.requestSpecification("http://localhost:8080/"),
                 Specifications.responseSpecification(200, "application/json"));
 
-        List<FoodPojo> foodList = given()
+        given()
                 .basePath("api/food")
                 .when()
                 .log().all()
                 .get()
                 .then()
-                .log().all()
-                .extract()
-                .jsonPath().getList(basePath, FoodPojo.class);
-        for (FoodPojo pojo : foodList) {
-            System.out.printf("%s %s %s \n", pojo.getName(), pojo.getType(), pojo.isExotic());
-
-        }
+                .log().all();
 
     }
 
@@ -53,7 +47,7 @@ public class RestPract {
     @Test
     @DisplayName("Тест POST-запроса")
     public void testPost() {
-        Specifications.installSpecification(Specifications.requestSpecification("http://localhost:8080/", "application/json"),
+        Specifications.installSpecification(Specifications.requestSpecification("http://localhost:8080/", "application/json","api/food"),
                 Specifications.responseSpecification(200));
 
 
@@ -65,7 +59,7 @@ public class RestPract {
                         "}")
                 .when()
                 .log().all()
-                .post("api/food")
+                .post()
                 .then()
                 .log().all();
     }
@@ -78,7 +72,7 @@ public class RestPract {
     @Test
     @DisplayName("Тест овоща")
     public void testVeg() {
-        Specifications.installSpecification(Specifications.requestSpecification("http://localhost:8080/", "application/json"),
+        Specifications.installSpecification(Specifications.requestSpecification("http://localhost:8080/", "application/json","api/food"),
                 Specifications.responseSpecification(200));
 
 
@@ -90,7 +84,7 @@ public class RestPract {
                         "}")
                 .when()
                 .log().all()
-                .post("api/food")
+                .post()
                 .then()
                 .log().all()
                 .extract()
@@ -100,7 +94,6 @@ public class RestPract {
 
         List<FoodPojo> foodList = given()
                 .cookies(cookies)
-                .basePath("api/food")
                 .when()
                 .log().all()
                 .get()
@@ -124,7 +117,7 @@ public class RestPract {
     @Test
     @DisplayName("Тест фрукта")
     public void testFruit() {
-        Specifications.installSpecification(Specifications.requestSpecification("http://localhost:8080/", "application/json"),
+        Specifications.installSpecification(Specifications.requestSpecification("http://localhost:8080/", "application/json","api/food"),
                 Specifications.responseSpecification(200));
 
 
@@ -136,7 +129,7 @@ public class RestPract {
                         "}")
                 .when()
                 .log().all()
-                .post("api/food")
+                .post()
                 .then()
                 .log().all()
                 .extract()
@@ -146,7 +139,6 @@ public class RestPract {
 
         List<FoodPojo> foodList = given()
                 .cookies(cookies)
-                .basePath("api/food")
                 .when()
                 .log().all()
                 .get()

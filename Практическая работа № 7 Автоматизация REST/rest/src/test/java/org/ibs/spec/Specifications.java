@@ -14,9 +14,10 @@ public class Specifications {
                 .build();
     }
 
-    public static RequestSpecification requestSpecification(String url, String contentType) {
+    public static RequestSpecification requestSpecification(String url, String contentType, String basepath) {
         return new RequestSpecBuilder()
                 .setBaseUri(url)
+                .setBasePath(basepath)
                 .setContentType(contentType)
                 .build();
     }
